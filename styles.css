@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background-color: #070a15;
+}
+
+.header {
+  font-weight: 500;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: white;
+}
+
+#info-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 86%;
+  background-color: #eeeeee;
+  padding: 1.4rem;
+  text-align: center;
+}
+
+#info {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: 1.1rem;
+}
+
+#follow-progress {
+  font-size: 1.2rem;
+}
+
+#twitter {
+  color: rgb(61, 176, 238);
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+#twitter:visited {
+  text-decoration: none;
+}
